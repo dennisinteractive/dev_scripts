@@ -10,7 +10,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
-        "psr-4": {"VM\\": "src"}
+        "psr-4": {"VM\\Console\\": "src"}
     }
 }
 
