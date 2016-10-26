@@ -5,7 +5,7 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
-        "drupal/console" : "1.0.0-beta5"
+        "drupal/console-core" : "^1.0"
      },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -13,4 +13,3 @@
         "psr-4": {"VM\\": "src"}
     }
 }
-
