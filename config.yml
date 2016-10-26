@@ -1,0 +1,9 @@
+    autowire:
+        commands:
+            forced: {  }
+            name:
+                'develop:example':
+                    class: \VM\Console\Command\Develop\ExampleCommand
+                'develop:example:container:aware':
+                    class: \VM\Console\Command\Develop\ExampleContainerAwareCommand
+
