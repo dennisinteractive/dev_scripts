@@ -15,8 +15,9 @@
       "url": "https://packages.drupal.org/8"
     },
     {
-      "type": "composer",
-      "url": "https://packagist.org"
+      "type": "vcs",
+      "url": "git@github.com:marcelovani/drupal_console_commands",
+      "no-api": true
     }
   ],
   "minimum-stability": "dev",
@@ -35,6 +36,6 @@
   },
   "require": {
     "drupal/console": "1.0.0-beta5",
-    "dennisdigital/dev_scripts": "commands"
+    "dennisdigital/drupal_console_commands": "dev-master"
   }
 }
