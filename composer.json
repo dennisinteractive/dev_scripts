@@ -23,10 +23,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "scripts": {
-    "post-install-cmd": [
-      "echo \"This is not working on install\""
-    ],
-    "post-update-cmd": [
+    "post-create-project-cmd": [
       "sudo ln -s ~/.config/composer/dev_scripts/vendor/drupal/console/bin/drupal /usr/local/bin/drupal",
       "drupal init",
       "#cat ~/.config/composer/vendor/dennisdigital/dev_scripts/config.yml >> ~/.console/config.yml",
