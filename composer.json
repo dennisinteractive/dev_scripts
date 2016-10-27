@@ -1,15 +1,40 @@
 {
-    "name": "dennisdigital/dev_scripts",
-    "description": "VM Scripts.",
-    "keywords": ["Drupal", "Console", "Development", "Symfony"],
-    "type": "project",
-    "license": "GPL-2.0+",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {
-        "drupal/console" : "1.0.0-beta5"
-     },
-    "autoload": {
-        "psr-4": {"VM\\": "src"}
+  "name": "dennisdigital/dev_scripts",
+  "description": "Install Drupal console with custom commands to be used for Drupal development.",
+  "keywords": [
+    "Drupal",
+    "Console",
+    "Development",
+    "Symfony"
+  ],
+  "type": "project",
+  "license": "GPL-2.0+",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.org"
     }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "post-install-cmd": [
+      "echo \"This is not working on install\""
+    ],
+    "post-update-cmd": [
+      "composer global config bin-dir --absolute",
+      "sudo ln -s ~/.config/composer/vendor/drupal/console/bin/drupal /usr/local/bin/drupal",
+      "drupal init",
+      "#cat ~/.config/composer/vendor/dennisdigital/dev_scripts/config.yml >> ~/.console/config.yml",
+      "drupal chain --file=~/.config/composer/vendor/dennisdigital/dev_scripts/scripts/post-update.yml"
+    ]
+  },
+  "require": {
+    "drupal/console": "1.0.0-beta5",
+    "dennisdigital/dev_scripts": "commands"
+  }
 }
