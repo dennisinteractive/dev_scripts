@@ -16,7 +16,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:marcelovani/drupal_console_commands",
+      "url": "git@github.com:marcelovani/drupal_console_commands.git",
       "no-api": true
     }
   ],
