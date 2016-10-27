@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains \VM\Console\Develop\Example.
+ * Contains VM\Console\Develop\SiteDbImportCommand.
  */
 
 namespace VM\Console\Command\Develop;
@@ -10,23 +10,23 @@ namespace VM\Console\Command\Develop;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Command\Command;
-use Drupal\Console\Command\Shared\CommandTrait;
+use Drupal\Console\Command\Shared\ContainerAwareCommandTrait;
 use Drupal\Console\Style\DrupalStyle;
 
 /**
- * Class ExampleCommand
+ * Class SiteDbImportCommand
  * @package VM\Console\Command\Develop
  */
-class ExampleCommand extends Command
+class SiteDbImportCommand extends Command
 {
-    use CommandTrait;
+    use ContainerAwareCommandTrait;
 
     /**
      * {@inheritdoc}
      */
     protected function configure()
     {
-        $this->setName('develop:example');
+        $this->setName('site:db:import');
     }
 
     /**
@@ -46,8 +46,8 @@ class ExampleCommand extends Command
          * Make sure you register your command class at
          * config/services/namespace.yml file and add the `console.command` tag.
          *
-         * develop_example:
-         *   class: VM\Console\Command\Develop\ExampleCommand
+         * develop_example_container_aware:
+         *   class: VM\Console\Command\Develop\SiteDbImportCommand
          *   tags:
          *     - { name: console.command }
          *
@@ -60,10 +60,18 @@ class ExampleCommand extends Command
          * Drupal Console provides the DrupalStyle helper class:
          */
         $io = new DrupalStyle($input, $output);
-        $io->simple('This text could be Dev translatable by');
-        $io->simple('adding a YAML file at "config/translations/LANGUAGE/command.name.yml"');
+        $io->simple('Importing database');
 
         /**
+         *  By using ContainerAwareCommandTrait on your class for the command
+         *  (instead of the more basic CommandTrait), you have access to
+         *  the service container.
+         *
+         *  In other words, you can access to any configured Drupal service
+         *  using the provided getService method.
+         *
+         *  $this->getDrupalService('entity_type.manager');
+         *
          *  Reading user input argument
          *  $input->getArgument('ARGUMENT_NAME');
          *

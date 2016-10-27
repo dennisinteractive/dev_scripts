@@ -2,7 +2,7 @@
         commands:
             forced: {  }
             name:
-                'develop:example':
-                    class: \VM\Console\Command\Develop\ExampleCommand
-                'develop:example:container:aware':
-                    class: \VM\Console\Command\Develop\ExampleContainerAwareCommand
+                'site:build':
+                    class: \VM\Console\Command\Develop\SiteBuildCommand
+                'site:db:import':
+                    class: \VM\Console\Command\Develop\SiteDbImportCommand
