@@ -26,7 +26,7 @@
     "post-create-project-cmd": [
       "sudo ln -s ~/.config/composer/dev_scripts/vendor/drupal/console/bin/drupal /usr/local/bin/drupal",
       "drupal init",
-      "#cat ~/.config/composer/vendor/dennisdigital/dev_scripts/config.yml >> ~/.console/config.yml",
+      "cat ~/.config/composer/dev_scripts/vendor/dennisdigital/drupal_console_commands/config.yml >> ~/.console/config.yml",
       "drupal chain --file=~/.config/composer/vendor/dennisdigital/dev_scripts/scripts/post-update.yml"
     ]
   },
