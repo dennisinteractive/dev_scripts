@@ -1,4 +1,5 @@
 #!/bin/sh
+ls
 
 # Remove existing symlink
 if [ -L /usr/local/bin/drupal ]; then sudo rm /usr/local/bin/drupal; fi
