@@ -16,7 +16,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/marcelovani/drupal_console_commands.git"
+      "url": "https://github.com/marcelovani/dc_custom.git"
     }
   ],
   "minimum-stability": "dev",
