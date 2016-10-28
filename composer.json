@@ -24,6 +24,7 @@
   "prefer-stable": true,
   "scripts": {
     "post-create-project-cmd": [
+      "ls -al",
       "sudo ln -s ~/.config/composer/dev_scripts/vendor/drupal/console/bin/drupal /usr/local/bin/drupal",
       "drupal init",
       "cat ~/.config/composer/dev_scripts/vendor/dennisdigital/drupal_console_commands/config.yml >> ~/.console/config.yml",
