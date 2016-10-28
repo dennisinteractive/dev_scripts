@@ -23,7 +23,7 @@
   "prefer-stable": true,
   "scripts": {
     "post-create-project-cmd": [
-      "if [ -L /usr/local/bin/drupal ]; then sudo rm /usr/local/bin/drupal; fi"
+      "if [ -L /usr/local/bin/drupal ]; then sudo rm /usr/local/bin/drupal; fi",
       "sudo ln -s ./vendor/bin/drupal /usr/local/bin/drupal",
       "drupal init",
       "cat ~/.config/composer/dev_scripts/vendor/dennisdigital/drupal_console_commands/config.yml >> ~/.console/config.yml",
