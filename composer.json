@@ -29,6 +29,6 @@
   },
   "require": {
     "drupal/console": "1.0.0-beta5",
-    "dennisdigital/drupal_console_commands": "0.1"
+    "dennisdigital/drupal_console_commands": "0.2"
   }
 }
