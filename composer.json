@@ -26,8 +26,8 @@
       "if [ -L /usr/local/bin/drupal ]; then sudo rm /usr/local/bin/drupal; fi",
       "sudo ln -s ./vendor/bin/drupal /usr/local/bin/drupal",
       "drupal init",
-      "cat ~/.config/composer/dev_scripts/vendor/dennisdigital/drupal_console_commands/config.yml >> ~/.console/config.yml",
-      "drupal chain --file=~/.config/composer/vendor/dennisdigital/dev_scripts/scripts/post-update.yml"
+      "cat ./vendor/dennisdigital/drupal_console_commands/config.yml >> ~/.console/config.yml",
+      "drupal chain --file=./vendor/dennisdigital/dev_scripts/scripts/post-update.yml"
     ]
   },
   "require": {
