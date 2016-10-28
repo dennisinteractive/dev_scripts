@@ -23,6 +23,7 @@
   "prefer-stable": true,
   "scripts": {
     "post-create-project-cmd": [
+      "ls -al",
       "./vendor/dennisdigital/dev_scripts/scripts/post-create-project.sh",
       "drupal chain --file=./vendor/dennisdigital/dev_scripts/scripts/post-update.yml"
     ]
