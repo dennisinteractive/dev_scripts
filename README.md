@@ -1,8 +1,13 @@
-# dev_scripts
+Dev Scripts
+===========
 
-Provides custom Drupal console commands.
+Scripts to use on development on Drupal VM.
 
-Installation
-============
+## Installation
 
-composer require dennisdigital/dev_scripts
+Installing the scripts and making them accessible globally.
+```
+composer global create-project dennisdigital/dev_scripts:dev-master
+```
+## Requirements
+- Composer (getcomposer.org)
