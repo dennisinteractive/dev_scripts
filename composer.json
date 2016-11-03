@@ -16,7 +16,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/dennisinteractive/drupal_console_commands.git"
+      "url": "git@github.com:dennisinteractive/drupal_console_commands.git"
     }
   ],
   "minimum-stability": "dev",
