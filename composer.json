@@ -29,7 +29,8 @@
     ]
   },
   "require": {
-    "drupal/console": "1.0.0-beta5",
-    "dennisdigital/drupal_console_commands": "0.9"
+    "drupal/console-core": "^1.0@RC",
+    "drupal/console-launcher": "^1.0@RC",
+    "dennisdigital/drupal_console_commands": "0.10"
   }
 }
