@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8a1171580d27f74c0f72dade0ffc5233",
-    "content-hash": "cfaea6eed947023c3b3a9c049486f38a",
+    "hash": "0736ca3443d1b05e16bf08efbd882fe0",
+    "content-hash": "be3a2e90a576222d27bee7f836630e1b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1027,12 +1027,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marcelovani/DrupalConsole.git",
-                "reference": "79571fbdd4626ae6983000367a571d31adac5b31"
+                "reference": "1d6d5de3f737e5bebe5f891072fafde9e880fc45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marcelovani/DrupalConsole/zipball/79571fbdd4626ae6983000367a571d31adac5b31",
-                "reference": "79571fbdd4626ae6983000367a571d31adac5b31",
+                "url": "https://api.github.com/repos/marcelovani/DrupalConsole/zipball/1d6d5de3f737e5bebe5f891072fafde9e880fc45",
+                "reference": "1d6d5de3f737e5bebe5f891072fafde9e880fc45",
                 "shasum": ""
             },
             "require": {
@@ -1097,7 +1097,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2016-11-15 12:27:47"
+            "time": "2016-11-15 12:31:20"
         },
         {
             "name": "padraic/humbug_get_contents",
@@ -2484,10 +2484,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "drupal/console-core": 5,
-        "drupal/console-launcher": 5
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
