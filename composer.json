@@ -34,7 +34,7 @@
   "_comment 3": "drupal/console-launcher: ^1.0",
   "_comment 4": "Temporarily using a fork of console",
   "require": {
-    "marcelovani/console": "dev-master",
+    "marcelovani/console": "^1.0.0-rc8",
     "dennisdigital/drupal_console_commands": "0.18"
   }
 }
