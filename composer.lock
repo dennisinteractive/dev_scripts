@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "17ac16256ebb4a93f4d5e4015fb15995",
-    "content-hash": "db8e06469a6526c37e11eb623a883d3e",
+    "hash": "11a9fd30c6a472d174f80b9d16b31439",
+    "content-hash": "e329578503424e85f1c10deeaea09ec6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -952,16 +952,16 @@
         },
         {
             "name": "marcelovani/console",
-            "version": "dev-master",
+            "version": "1.0.0-rc9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marcelovani/DrupalConsole.git",
-                "reference": "1d6d5de3f737e5bebe5f891072fafde9e880fc45"
+                "reference": "13f2b089194a93a126929a358de397e16c738c15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marcelovani/DrupalConsole/zipball/1d6d5de3f737e5bebe5f891072fafde9e880fc45",
-                "reference": "1d6d5de3f737e5bebe5f891072fafde9e880fc45",
+                "url": "https://api.github.com/repos/marcelovani/DrupalConsole/zipball/13f2b089194a93a126929a358de397e16c738c15",
+                "reference": "13f2b089194a93a126929a358de397e16c738c15",
                 "shasum": ""
             },
             "require": {
@@ -1026,7 +1026,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2016-11-15 12:31:20"
+            "time": "2016-11-13 23:04:16"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -2304,9 +2304,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "marcelovani/console": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
