@@ -28,10 +28,13 @@
       "drupal chain --file=./vendor/dennisdigital/drupal_console_commands/scripts/post-update.yml"
     ]
   },
+  "_comment 0": "Temporarily using a fork of console until the pull request is accepted.",
+  "_comment 1": "https://github.com/hechoendrupal/DrupalConsole/issues/2825",
+  "_comment 2": "drupal/console-core: ^1.0",
+  "_comment 3": "drupal/console-launcher: ^1.0",
   "require": {
     "drupal/core": "8.x",
-    "drupal/console-core": "^1.0",
-    "drupal/console-launcher": "^1.0",
-    "dennisdigital/drupal_console_commands": "0.16"
+    "marcelovani/console": "dev-master",
+    "dennisdigital/drupal_console_commands": "0.17"
   }
 }
