@@ -35,6 +35,6 @@
   "_comment 4": "Temporarily using a fork of console",
   "require": {
     "marcelovani/console" : "dev-chain_register",
-    "dennisdigital/drupal_console_commands": "0.18"
+    "dennisdigital/drupal_console_commands": "0.20"
   }
 }
