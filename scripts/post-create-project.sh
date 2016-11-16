@@ -15,4 +15,4 @@ drupal init
 cat ${pwd}/vendor/dennisdigital/drupal_console_commands/config.yml >> ~/.console/config.yml
 
 # Copy chain.yml to home folder
-cp ${pwd}/vendor/dennisdigital/drupal_console_commands/chain.yml ~/.console/config.yml
+cp ${pwd}/vendor/dennisdigital/drupal_console_commands/chain.yml ~/.console/
