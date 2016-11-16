@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cc18075ca09654861ae4348bf95a60ad",
-    "content-hash": "ea1c16a08dfda3acd7da85f2c733fd25",
+    "hash": "ce8df28f7a6bc47ab6fac868cb1b4fc2",
+    "content-hash": "7e2e2eb41b7dff34eeae4db4c2fc81f7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -178,16 +178,16 @@
         },
         {
             "name": "dennisdigital/drupal_console_commands",
-            "version": "0.18",
+            "version": "0.20",
             "source": {
                 "type": "git",
                 "url": "git@github.com:dennisinteractive/drupal_console_commands.git",
-                "reference": "8e9de826e1d0e3f92f2d1365105b9c80a813fbca"
+                "reference": "f4cae962a633ccb215ff8523b6191dc19323d2ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/drupal_console_commands/zipball/8e9de826e1d0e3f92f2d1365105b9c80a813fbca",
-                "reference": "8e9de826e1d0e3f92f2d1365105b9c80a813fbca",
+                "url": "https://api.github.com/repos/dennisinteractive/drupal_console_commands/zipball/f4cae962a633ccb215ff8523b6191dc19323d2ec",
+                "reference": "f4cae962a633ccb215ff8523b6191dc19323d2ec",
                 "shasum": ""
             },
             "type": "project",
@@ -206,7 +206,7 @@
                 "Drupal",
                 "Symfony"
             ],
-            "time": "2016-11-15 15:44:23"
+            "time": "2016-11-16 16:39:25"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -708,12 +708,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marcelovani/DrupalConsole.git",
-                "reference": "8905ee36a8339b8e237d370fea790a994350a6d9"
+                "reference": "81404c39d3828629aa25c23d096d10d82b75938b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marcelovani/DrupalConsole/zipball/8905ee36a8339b8e237d370fea790a994350a6d9",
-                "reference": "8905ee36a8339b8e237d370fea790a994350a6d9",
+                "url": "https://api.github.com/repos/marcelovani/DrupalConsole/zipball/81404c39d3828629aa25c23d096d10d82b75938b",
+                "reference": "81404c39d3828629aa25c23d096d10d82b75938b",
                 "shasum": ""
             },
             "require": {
@@ -787,7 +787,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2016-08-02 04:56:07"
+            "time": "2016-11-16 16:35:45"
         },
         {
             "name": "padraic/humbug_get_contents",
