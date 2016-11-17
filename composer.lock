@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ce8df28f7a6bc47ab6fac868cb1b4fc2",
-    "content-hash": "7e2e2eb41b7dff34eeae4db4c2fc81f7",
+    "hash": "a2bd644de10ba1eed621023a739eb9fa",
+    "content-hash": "52ca0356f3aa25a4c1c9bf15e148f397",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -175,6 +175,93 @@
                 "zikula"
             ],
             "time": "2016-08-13 20:53:52"
+        },
+        {
+            "name": "dennisdigital/console",
+            "version": "dev-chain_register_beta5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dennisinteractive/DrupalConsole.git",
+                "reference": "063a56ffbe59e00f92dfea45a3c9163b4ec62bd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dennisinteractive/DrupalConsole/zipball/063a56ffbe59e00f92dfea45a3c9163b4ec62bd6",
+                "reference": "063a56ffbe59e00f92dfea45a3c9163b4ec62bd6",
+                "shasum": ""
+            },
+            "require": {
+                "alchemy/zippy": "0.3.5",
+                "composer/installers": "~1.0",
+                "dflydev/placeholder-resolver": "~1.0",
+                "doctrine/annotations": "1.2.*",
+                "gabordemooij/redbean": "@stable",
+                "guzzlehttp/guzzle": "~6.1",
+                "padraic/phar-updater": "~1.0@dev",
+                "php": "^5.6 || ^7.0",
+                "phpseclib/phpseclib": "2.*",
+                "stecman/symfony-console-completion": "^0.5.1",
+                "symfony/config": "~2.8",
+                "symfony/console": "~2.8",
+                "symfony/css-selector": "~2.7",
+                "symfony/debug": "~2.7",
+                "symfony/dependency-injection": "~2.8",
+                "symfony/dom-crawler": "~2.7",
+                "symfony/event-dispatcher": "~2.8",
+                "symfony/filesystem": "~2.8",
+                "symfony/finder": "~2.8",
+                "symfony/http-foundation": "~2.8",
+                "symfony/translation": "~2.8",
+                "symfony/yaml": "~2.8",
+                "twig/twig": "^1.23.1"
+            },
+            "bin": [
+                "bin/drupal"
+            ],
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\Console\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "David Flores",
+                    "email": "dmousex@gmail.com",
+                    "homepage": "http://dmouse.net"
+                },
+                {
+                    "name": "Jesus Manuel Olivas",
+                    "email": "jesus.olivas@gmail.com",
+                    "homepage": "http://jmolivas.com"
+                },
+                {
+                    "name": "Drupal Console Contributors",
+                    "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
+                },
+                {
+                    "name": "Eduardo Garcia",
+                    "email": "enzo@enzolutions.com",
+                    "homepage": "http://enzolutions.com/"
+                },
+                {
+                    "name": "Omar Aguirre",
+                    "email": "omersguchigu@gmail.com"
+                }
+            ],
+            "description": "The Drupal Console is a CLI tool to generate boilerplate code, interact and debug Drupal 8.",
+            "homepage": "http://drupalconsole.com/",
+            "keywords": [
+                "console",
+                "development",
+                "drupal",
+                "symfony"
+            ],
+            "time": "2016-11-17 11:22:16"
         },
         {
             "name": "dennisdigital/drupal_console_commands",
@@ -701,93 +788,6 @@
                 "password"
             ],
             "time": "2014-11-20 16:49:30"
-        },
-        {
-            "name": "marcelovani/console",
-            "version": "dev-chain_register",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/marcelovani/DrupalConsole.git",
-                "reference": "81404c39d3828629aa25c23d096d10d82b75938b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/marcelovani/DrupalConsole/zipball/81404c39d3828629aa25c23d096d10d82b75938b",
-                "reference": "81404c39d3828629aa25c23d096d10d82b75938b",
-                "shasum": ""
-            },
-            "require": {
-                "alchemy/zippy": "0.3.5",
-                "composer/installers": "~1.0",
-                "dflydev/placeholder-resolver": "~1.0",
-                "doctrine/annotations": "1.2.*",
-                "gabordemooij/redbean": "@stable",
-                "guzzlehttp/guzzle": "~6.1",
-                "padraic/phar-updater": "~1.0@dev",
-                "php": "^5.6 || ^7.0",
-                "phpseclib/phpseclib": "2.*",
-                "stecman/symfony-console-completion": "^0.5.1",
-                "symfony/config": "~2.8",
-                "symfony/console": "~2.8",
-                "symfony/css-selector": "~2.7",
-                "symfony/debug": "~2.7",
-                "symfony/dependency-injection": "~2.8",
-                "symfony/dom-crawler": "~2.7",
-                "symfony/event-dispatcher": "~2.8",
-                "symfony/filesystem": "~2.8",
-                "symfony/finder": "~2.8",
-                "symfony/http-foundation": "~2.8",
-                "symfony/translation": "~2.8",
-                "symfony/yaml": "~2.8",
-                "twig/twig": "^1.23.1"
-            },
-            "bin": [
-                "bin/drupal"
-            ],
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "Drupal\\Console\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "David Flores",
-                    "email": "dmousex@gmail.com",
-                    "homepage": "http://dmouse.net"
-                },
-                {
-                    "name": "Jesus Manuel Olivas",
-                    "email": "jesus.olivas@gmail.com",
-                    "homepage": "http://jmolivas.com"
-                },
-                {
-                    "name": "Drupal Console Contributors",
-                    "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
-                },
-                {
-                    "name": "Eduardo Garcia",
-                    "email": "enzo@enzolutions.com",
-                    "homepage": "http://enzolutions.com/"
-                },
-                {
-                    "name": "Omar Aguirre",
-                    "email": "omersguchigu@gmail.com"
-                }
-            ],
-            "description": "The Drupal Console is a CLI tool to generate boilerplate code, interact and debug Drupal 8.",
-            "homepage": "http://drupalconsole.com/",
-            "keywords": [
-                "console",
-                "development",
-                "drupal",
-                "symfony"
-            ],
-            "time": "2016-11-16 16:35:45"
         },
         {
             "name": "padraic/humbug_get_contents",
@@ -2089,7 +2089,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "marcelovani/console": 20
+        "dennisdigital/console": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

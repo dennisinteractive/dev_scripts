@@ -28,13 +28,12 @@
       "drupal chain --file=./vendor/dennisdigital/drupal_console_commands/scripts/post-update.yml"
     ]
   },
-  "_comment 0": "Temporarily using drupal/console beta5 until they move the global commands to the launcher. Also, added Chain register.",
+  "_comment 0": "Temporarily using a fork of drupal/console beta5 until they move the chain commands to the launcher.",
   "_comment 1": "https://github.com/hechoendrupal/DrupalConsole/issues/2825",
-  "_comment 2": "drupal/console-core: 1.0@RC",
-  "_comment 3": "drupal/console-launcher:1.0@RC",
-  "_comment 4": "Temporarily using a fork of console",
+  "_comment 2": "removed drupal/console-core: 1.0@RC",
+  "_comment 3": "removed drupal/console-launcher:1.0@RC",
   "require": {
-    "marcelovani/console" : "dev-chain_register",
+    "dennisdigital/console" : "dev-chain_register_beta5",
     "dennisdigital/drupal_console_commands": "0.20"
   }
 }
