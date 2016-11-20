@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "673ddf004b37a12bf6dca0ba5fb7e274",
-    "content-hash": "11e3284278588990fdff5ed752242678",
+    "hash": "bac37a66b4596312927d3bdd7067b494",
+    "content-hash": "950e1a79cb64dcc96a184733adbc767e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dennisinteractive/DrupalConsole.git",
-                "reference": "063a56ffbe59e00f92dfea45a3c9163b4ec62bd6"
+                "reference": "9be48531cbb29e3311574d6e91bb0d9cd586991e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/DrupalConsole/zipball/063a56ffbe59e00f92dfea45a3c9163b4ec62bd6",
-                "reference": "063a56ffbe59e00f92dfea45a3c9163b4ec62bd6",
+                "url": "https://api.github.com/repos/dennisinteractive/DrupalConsole/zipball/9be48531cbb29e3311574d6e91bb0d9cd586991e",
+                "reference": "9be48531cbb29e3311574d6e91bb0d9cd586991e",
                 "shasum": ""
             },
             "require": {
@@ -261,20 +261,20 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2016-11-17 11:22:16"
+            "time": "2016-11-18 17:21:30"
         },
         {
             "name": "dennisdigital/drupal_console_commands",
-            "version": "0.22",
+            "version": "0.24",
             "source": {
                 "type": "git",
                 "url": "git@github.com:dennisinteractive/drupal_console_commands.git",
-                "reference": "69019a2c832721eda7896d85688fde9d5f0dc71c"
+                "reference": "77d53a6dc472b90d2e4e766fc8f84fa9d65adfed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/drupal_console_commands/zipball/69019a2c832721eda7896d85688fde9d5f0dc71c",
-                "reference": "69019a2c832721eda7896d85688fde9d5f0dc71c",
+                "url": "https://api.github.com/repos/dennisinteractive/drupal_console_commands/zipball/77d53a6dc472b90d2e4e766fc8f84fa9d65adfed",
+                "reference": "77d53a6dc472b90d2e4e766fc8f84fa9d65adfed",
                 "shasum": ""
             },
             "type": "project",
@@ -293,7 +293,7 @@
                 "Drupal",
                 "Symfony"
             ],
-            "time": "2016-11-17 18:02:51"
+            "time": "2016-11-18 10:34:25"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -640,16 +640,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579"
+                "reference": "2693c101803ca78b27972d84081d027fca790a1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/c10d860e2a9595f8883527fa0021c7da9e65f579",
-                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/2693c101803ca78b27972d84081d027fca790a1e",
+                "reference": "2693c101803ca78b27972d84081d027fca790a1e",
                 "shasum": ""
             },
             "require": {
@@ -687,7 +687,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-05-18 16:56:05"
+            "time": "2016-11-18 17:47:58"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -2025,16 +2025,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.28.0",
+            "version": "v1.28.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "60ae30368f7ac50a95de032f16c1e882b0f69813"
+                "reference": "fff80c4a7ae1d47a81dfec10c76cbcb939170b45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/60ae30368f7ac50a95de032f16c1e882b0f69813",
-                "reference": "60ae30368f7ac50a95de032f16c1e882b0f69813",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/fff80c4a7ae1d47a81dfec10c76cbcb939170b45",
+                "reference": "fff80c4a7ae1d47a81dfec10c76cbcb939170b45",
                 "shasum": ""
             },
             "require": {
@@ -2082,7 +2082,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-11-17 17:46:53"
+            "time": "2016-11-19 05:52:49"
         }
     ],
     "packages-dev": [],
