@@ -34,6 +34,6 @@
   "_comment 3": "removed drupal/console-launcher:1.0@RC",
   "require": {
     "dennisdigital/console" : "dev-chain_register_beta5",
-    "dennisdigital/drupal_console_commands": "0.24"
+    "dennisdigital/drupal_console_commands": "0.25"
   }
 }

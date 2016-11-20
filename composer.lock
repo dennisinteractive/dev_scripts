@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bac37a66b4596312927d3bdd7067b494",
-    "content-hash": "950e1a79cb64dcc96a184733adbc767e",
+    "hash": "a67576eedf3f46c5a3cd77fdb468ac0e",
+    "content-hash": "6f0de51609927d54c3ce407711f6bedc",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -265,16 +265,16 @@
         },
         {
             "name": "dennisdigital/drupal_console_commands",
-            "version": "0.24",
+            "version": "0.25",
             "source": {
                 "type": "git",
                 "url": "git@github.com:dennisinteractive/drupal_console_commands.git",
-                "reference": "77d53a6dc472b90d2e4e766fc8f84fa9d65adfed"
+                "reference": "b72b46703b974b03030ebe65faa3de95df997d53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/drupal_console_commands/zipball/77d53a6dc472b90d2e4e766fc8f84fa9d65adfed",
-                "reference": "77d53a6dc472b90d2e4e766fc8f84fa9d65adfed",
+                "url": "https://api.github.com/repos/dennisinteractive/drupal_console_commands/zipball/b72b46703b974b03030ebe65faa3de95df997d53",
+                "reference": "b72b46703b974b03030ebe65faa3de95df997d53",
                 "shasum": ""
             },
             "type": "project",
@@ -293,7 +293,7 @@
                 "Drupal",
                 "Symfony"
             ],
-            "time": "2016-11-18 10:34:25"
+            "time": "2016-11-20 18:58:06"
         },
         {
             "name": "dflydev/placeholder-resolver",
