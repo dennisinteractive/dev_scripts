@@ -24,8 +24,7 @@
   "prefer-stable": true,
   "scripts": {
     "post-create-project-cmd": [
-      "./scripts/post-create-project.sh",
-      "drupal chain --file=./vendor/dennisdigital/drupal_console_commands/scripts/post-update.yml"
+      "./scripts/post-create-project.sh"
     ]
   },
   "_comment 0": "Temporarily using a fork of drupal/console beta5 until they move the chain commands to the launcher.",
