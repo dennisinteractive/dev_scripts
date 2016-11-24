@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "51c3748d2f6965d2d733182715b8582c",
-    "content-hash": "2217cb6b74f1ba22b8849b5c928fa65f",
+    "hash": "e3d23490378760b905f87d328691684a",
+    "content-hash": "8744ca792c365039d788142a5c119bff",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -265,16 +265,16 @@
         },
         {
             "name": "dennisdigital/drupal_console_commands",
-            "version": "0.27",
+            "version": "0.28",
             "source": {
                 "type": "git",
                 "url": "git@github.com:dennisinteractive/drupal_console_commands.git",
-                "reference": "1c9fa259837b45771952febdfb6c5546709f8d9c"
+                "reference": "c5046d5f0d6e2f633076ccec3765b527534880a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/drupal_console_commands/zipball/1c9fa259837b45771952febdfb6c5546709f8d9c",
-                "reference": "1c9fa259837b45771952febdfb6c5546709f8d9c",
+                "url": "https://api.github.com/repos/dennisinteractive/drupal_console_commands/zipball/c5046d5f0d6e2f633076ccec3765b527534880a9",
+                "reference": "c5046d5f0d6e2f633076ccec3765b527534880a9",
                 "shasum": ""
             },
             "type": "project",
@@ -293,7 +293,7 @@
                 "Drupal",
                 "Symfony"
             ],
-            "time": "2016-11-21 17:32:36"
+            "time": "2016-11-24 12:52:11"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -2025,16 +2025,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.28.1",
+            "version": "v1.28.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "fff80c4a7ae1d47a81dfec10c76cbcb939170b45"
+                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/fff80c4a7ae1d47a81dfec10c76cbcb939170b45",
-                "reference": "fff80c4a7ae1d47a81dfec10c76cbcb939170b45",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b22ce0eb070e41f7cba65d78fe216de29726459c",
+                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c",
                 "shasum": ""
             },
             "require": {
@@ -2042,7 +2042,7 @@
             },
             "require-dev": {
                 "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~2.7"
+                "symfony/phpunit-bridge": "~3.2@dev"
             },
             "type": "library",
             "extra": {
@@ -2082,7 +2082,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-11-19 05:52:49"
+            "time": "2016-11-23 18:41:40"
         }
     ],
     "packages-dev": [],
