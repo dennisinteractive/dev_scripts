@@ -31,6 +31,12 @@
       "url": "git@github.com:dennisinteractive/drupal-console-core.git",
       "vendor-alias": "drupal",
       "no-api": true
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:dennisinteractive/drupal-console-extend.git",
+      "vendor-alias": "drupal",
+      "no-api": true
     }
   ],
   "minimum-stability": "dev",
@@ -42,6 +48,7 @@
   },
   "require": {
     "drupal/console-launcher": "dennis-master-dev",
+    "drupal/console-extend": "dennis-master-dev",
     "dennisdigital/drupal_console_commands": "drupal_extend-dev"
   }
 }

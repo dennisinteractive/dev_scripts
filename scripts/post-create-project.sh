@@ -1,4 +1,5 @@
 #!/bin/sh
+set -x
 pwd=`pwd`
 
 # Remove existing symlink
@@ -12,8 +13,11 @@ echo "[Info] Drupal init"
 drupal init --override
 drupal settings:set environment dev
 
-# Append custom config.yml to the global config
-cat ${pwd}/vendor/dennisdigital/drupal_console_commands/config.yml >> ~/.console/config.yml
+# Copy chain commands
+cp vendor/dennisdigital/drupal_console_commands/chain/*.yml ~/.console/chain
 
-# Copy chain.yml to home folder
-cp ${pwd}/vendor/dennisdigital/drupal_console_commands/chain.yml ~/.console/
+# Move console-extend to the conventional location.
+rm -rf ~/.composer/extend;
+mv vendor/drupal/console-extend ~/.console/extend
+cd ~/.console/extend
+composer install

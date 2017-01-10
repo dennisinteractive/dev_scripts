@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eabd5ea2fc62e299d4dc5af5f856c68b",
-    "content-hash": "4499a5fe1242769eadb804fc7824d480",
+    "hash": "bf4e1e30f9e7c2d73b339f322202e761",
+    "content-hash": "3525b55843dd09be2e91eca854a39ce0",
     "packages": [
         {
             "name": "dennisdigital/drupal_console_commands",
@@ -349,6 +349,53 @@
             "time": "2017-01-07 03:56:38"
         },
         {
+            "name": "drupal/console-extend",
+            "version": "dev-dennis-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:dennisinteractive/drupal-console-extend.git",
+                "reference": "75b2d30ee23ffb503660ecc9092d4e516d479ebb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dennisinteractive/drupal-console-extend/zipball/75b2d30ee23ffb503660ecc9092d4e516d479ebb",
+                "reference": "75b2d30ee23ffb503660ecc9092d4e516d479ebb",
+                "shasum": ""
+            },
+            "require": {
+                "eureka/component-yaml": "^1.0"
+            },
+            "require-dev": {
+                "composer/installers": "^1.2",
+                "drupal/console-core": "nested_chains-dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\Console\\Extend\\": "src"
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "Drupal\\Console\\Extend\\Plugin\\ScriptHandler::dump"
+                ],
+                "post-update-cmd": [
+                    "Drupal\\Console\\Extend\\Plugin\\ScriptHandler::dump"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jesus Manuel Olivas",
+                    "email": "jesus.olivas@gmail.com"
+                }
+            ],
+            "description": "Drupal Console Extend",
+            "time": "2017-01-10 17:12:05"
+        },
+        {
             "name": "drupal/console-launcher",
             "version": "dev-dennis-master",
             "source": {
@@ -429,6 +476,39 @@
                 "docs": "http://docs.drupalconsole.com/"
             },
             "time": "2017-01-10 16:46:29"
+        },
+        {
+            "name": "eureka/component-yaml",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/velkuns/component-yaml.git",
+                "reference": "a61c2b60ec458b5229218661b8fa5de63169cc0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/velkuns/component-yaml/zipball/a61c2b60ec458b5229218661b8fa5de63169cc0d",
+                "reference": "a61c2b60ec458b5229218661b8fa5de63169cc0d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Eureka\\Component\\Yaml\\": "./src/Yaml/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Cottard",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP yaml library.",
+            "time": "2016-10-09 13:46:49"
         },
         {
             "name": "padraic/humbug_get_contents",
@@ -1440,6 +1520,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/console-launcher": 20,
+        "drupal/console-extend": 20,
         "dennisdigital/drupal_console_commands": 20
     },
     "prefer-stable": true,
