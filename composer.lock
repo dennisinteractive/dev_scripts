@@ -401,12 +401,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:dennisinteractive/drupal-console-launcher.git",
-                "reference": "c87446e838d4e8f0ee8c4acf070286dbe2fdf56a"
+                "reference": "c1b66cedeb0b98a2950497fdcc062b7685b18e62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/drupal-console-launcher/zipball/c87446e838d4e8f0ee8c4acf070286dbe2fdf56a",
-                "reference": "c87446e838d4e8f0ee8c4acf070286dbe2fdf56a",
+                "url": "https://api.github.com/repos/dennisinteractive/drupal-console-launcher/zipball/c1b66cedeb0b98a2950497fdcc062b7685b18e62",
+                "reference": "c1b66cedeb0b98a2950497fdcc062b7685b18e62",
                 "shasum": ""
             },
             "require": {
@@ -475,7 +475,7 @@
                 "forum": "https://gitter.im/hechoendrupal/DrupalConsole",
                 "docs": "http://docs.drupalconsole.com/"
             },
-            "time": "2017-01-10 16:46:29"
+            "time": "2017-01-10 17:41:32"
         },
         {
             "name": "eureka/component-yaml",
