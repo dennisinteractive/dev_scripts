@@ -17,6 +17,19 @@
     {
       "type": "vcs",
       "url": "git@github.com:dennisinteractive/drupal_console_commands.git",
+      "vendor-alias": "dennisdigital",
+      "no-api": true
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:dennisinteractive/drupal-console-launcher.git",
+      "vendor-alias": "drupal",
+      "no-api": true
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:dennisinteractive/drupal-console-core.git",
+      "vendor-alias": "drupal",
       "no-api": true
     }
   ],
@@ -27,12 +40,8 @@
       "./scripts/post-create-project.sh"
     ]
   },
-  "_comment 0": "Temporarily using a fork of drupal/console beta5 until they move the chain commands to the launcher.",
-  "_comment 1": "https://github.com/hechoendrupal/DrupalConsole/issues/2825",
-  "_comment 2": "removed drupal/console-core: 1.0@RC",
-  "_comment 3": "removed drupal/console-launcher:1.0@RC",
   "require": {
-    "dennisdigital/console" : "dev-chain_register_beta5",
-    "dennisdigital/drupal_console_commands": "0.34"
+    "drupal/console-launcher": "dennis-master-dev",
+    "dennisdigital/drupal_console_commands": "drupal_extend-dev"
   }
 }
