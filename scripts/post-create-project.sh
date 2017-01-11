@@ -13,11 +13,10 @@ echo "[Info] Drupal init"
 drupal init --override
 drupal settings:set environment dev
 
-# Copy chain commands
-cp vendor/dennisdigital/drupal_console_commands/chain/*.yml ~/.console/chain
-
 # Move console-extend to the conventional location.
-rm -rf ~/.composer/extend;
+rm -rf ~/.console/extend;
 mv vendor/drupal/console-extend ~/.console/extend
 cd ~/.console/extend
-composer install
+
+# Require our console commands
+composer require dennisdigital/drupal_console_commands:dev-drupal_extend --update-no-dev

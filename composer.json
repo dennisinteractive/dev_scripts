@@ -49,6 +49,6 @@
   "require": {
     "drupal/console-launcher": "dennis-master-dev",
     "drupal/console-extend": "dennis-master-dev",
-    "dennisdigital/drupal_console_commands": "drupal_extend-dev"
+    "dennisdigital/drupal_console_commands": "dev-drupal_extend"
   }
 }
