@@ -1,3 +1,8 @@
+Deprecated
+===========
+
+Console installation scripts are now maintained in https://github.com/dennisinteractive/drupal_console_commands
+
 Dev Scripts
 ===========
 
